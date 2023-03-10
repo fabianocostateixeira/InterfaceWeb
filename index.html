@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid - Responsivo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="header-container">
+                <div>
+                    <label for="check-menu" id="label-menu">
+                        <img src="./images/hamburger.png" width="35px" alt="Icone para apresentacao do menu">
+                    </label>
+                </div>
+                <div class="logo">
+                    <img width="100px" src="./images/logo.png" alt="Logo do site">
+                </div>
+            </div>
+            <input type="checkbox" id="check-menu">
+            <nav class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="#">Home</a></li>
+                    <li class="menu-item"><a href="#">Cadastro</a></li>
+                    <li class="menu-item"><a href="#">Relatório</a></li>
+                </ul>
+            </nav>
+            <div class="crud-container">
+                <div class="crud-item">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                </div>
+                <div class="crud-item">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone">
+                </div>
+                <div class="crud-item">
+                    <button>Salvar</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
